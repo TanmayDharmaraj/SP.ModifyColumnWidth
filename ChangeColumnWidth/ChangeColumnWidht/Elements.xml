@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="ChangeColumnWidthButton"
+    RegistrationType="List"
+    RegistrationId="101"
+    Location="CommandUI.Ribbon"
+    Rights="EditListItems"
+    >
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+         Location="Ribbon.Library.Settings.Controls._children">
+          <Button
+           Id="Ribbon.Library.Settings.Controls.ChangeColumnWidthButton"
+           Alt="Change Column Width"
+           Sequence="1"
+           Image16by16="/_layouts/15/ChangeColumnWidth/change_width16x16.png"
+           Image32by32="/_layouts/15/ChangeColumnWidth/change_width32x32.png"
+           Command="ChangeColumnWidthCommand"
+           LabelText="Change Column Width"
+           TemplateAlias="o1"
+           CommandType="General"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+         Command="ChangeColumnWidthCommand"
+         CommandAction="javascript:init()" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction
+    Id="ChangeColumnWidthCommand.Script"
+    Location="ScriptLink"
+    ScriptSrc ="/_layouts/15/ChangeColumnWidth/ChangeColumnWidth.js">
+  </CustomAction>
+</Elements>

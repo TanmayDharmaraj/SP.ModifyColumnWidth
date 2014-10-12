@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ef12672d-9ff0-421b-97b6-9c174b30a073" solutionId="ef12672d-9ff0-421b-97b6-9c174b30a073" resetWebServer="false" sharePointProductVersion="15.0" name="ChangeColumnWidth" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d31d2578-08c2-46d6-8aaf-1e9173cf170a" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="1d15f029-fb50-4d64-83a8-397b3d652632" />
+  </projectItems>
+</package>

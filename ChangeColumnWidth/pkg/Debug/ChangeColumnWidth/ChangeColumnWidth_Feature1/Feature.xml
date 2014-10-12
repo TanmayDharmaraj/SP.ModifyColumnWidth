@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7634f869-68fa-4cad-b491-5aee1f1402e0" Scope="Web" Title="ChangeColumnWidth Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ChangeColumnWidht\Elements.xml" />
+  </ElementManifests>
+</Feature>

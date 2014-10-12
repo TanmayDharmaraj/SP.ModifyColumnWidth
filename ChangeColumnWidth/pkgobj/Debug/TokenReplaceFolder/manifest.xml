@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ef12672d-9ff0-421b-97b6-9c174b30a073" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ChangeColumnWidth.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\ChangeColumnWidth\ChangeColumnWidth.aspx" />
+    <TemplateFile Location="Layouts\ChangeColumnWidth\ChangeColumnWidth.js" />
+    <TemplateFile Location="Layouts\ChangeColumnWidth\change_width16x16.png" />
+    <TemplateFile Location="Layouts\ChangeColumnWidth\change_width32x32.png" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ChangeColumnWidth_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

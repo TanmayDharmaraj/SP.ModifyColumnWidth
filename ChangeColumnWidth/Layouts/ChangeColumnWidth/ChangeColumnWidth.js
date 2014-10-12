@@ -3,10 +3,9 @@
     var pageUrl = SP.Utilities.Utility.getLayoutsPageUrl(
        'ChangeColumnWidth/ChangeColumnWidth.aspx?ListId=' + listId + '&PagePath=' + _spPageContextInfo.serverRequestPath);
     var options = {
-        title: 'Change list properties',
+        title: 'Change Column Width',
         url: pageUrl,
-        height: 400,
-        width: 500,
+        width:400,
         dialogReturnValueCallback: PopUpClosed 
     }
     SP.UI.ModalDialog.showModalDialog(options);

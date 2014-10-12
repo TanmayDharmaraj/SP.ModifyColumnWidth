@@ -28,22 +28,25 @@
                 <td><asp:TextBox ID="txt1" runat="server" data-attribute='<%#Eval("ViewFields") %>'></asp:TextBox>
                     </td>
                 <td><asp:Literal ID="colMeasure" runat="server" Text="px"></asp:Literal></td>
-                <td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
                     <asp:RegularExpressionValidator 
                         ID="RegularExpressionValidator1" 
                         runat="server" 
                         ErrorMessage="Only numbers allowed"
                         ControlToValidate="txt1"
                         EnableClientScript="true"
-                        Display="Static"
+                        Display="Dynamic"
                         ForeColor="#ff5050"
-                        ValidationExpression="^[0-9]$"></asp:RegularExpressionValidator>
+                        ValidationExpression="^[0-9]+$"></asp:RegularExpressionValidator>
+
                 </td>
             </tr>
         </ItemTemplate>
         <FooterTemplate>
             <tr>
-                <td>
+                <td style="margin-top:10px" colspan="3" valign="middle" align="right">
                     <asp:Button ID="btnOk" runat="server" Text="Ok" OnClick="btnOk_Click" />
                 </td>
             </tr>

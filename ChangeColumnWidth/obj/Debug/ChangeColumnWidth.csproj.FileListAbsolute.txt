@@ -2,3 +2,4 @@ C:\Users\lntrealtykmdm\documents\visual studio 2012\Projects\ChangeColumnWidth\C
 C:\Users\lntrealtykmdm\documents\visual studio 2012\Projects\ChangeColumnWidth\ChangeColumnWidth\bin\Debug\ChangeColumnWidth.pdb
 C:\Users\lntrealtykmdm\documents\visual studio 2012\Projects\ChangeColumnWidth\ChangeColumnWidth\obj\Debug\ChangeColumnWidth.dll
 C:\Users\lntrealtykmdm\documents\visual studio 2012\Projects\ChangeColumnWidth\ChangeColumnWidth\obj\Debug\ChangeColumnWidth.pdb
+C:\Users\lntrealtykmdm\Documents\Visual Studio 2012\Projects\ChangeColumnWidth\ChangeColumnWidth\obj\Debug\ChangeColumnWidth.csprojResolveAssemblyReference.cache

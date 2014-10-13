@@ -12,5 +12,5 @@ This project allows a user to modify the column width of SharePoint 2013 Library
     3. A JavaScript file that is used to open the application page in a modal pop up and also to show status messages
     4. A Script Editor WebPart that does the magic of changing the column width on the client side.
 
-### Screen Shots
-*Comming soon*
+### Screen Shots and Demonstration
+Click [here](http://tanmaydharmaraj.com/change-sharepoint-column-width/) to see the blog post
